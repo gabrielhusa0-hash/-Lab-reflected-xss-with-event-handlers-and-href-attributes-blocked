@@ -17,7 +17,7 @@ Využitím specifického payloadu z nápovědy, který obešel zavedené filtry 
  
 #Postup řešení
 
-Analýza zadání a filtrů: Zjistili jsme, že aplikace je zranitelná vůči Reflected XSS, ale obsahuje bezpečnostní filtry, které blokují obvyklé spouštěče (event handery jako onclick/onload a href atributy).
+Analýza zadání a filtrů: Zjistil jsem, že aplikace je zranitelná vůči Reflected XSS, ale obsahuje bezpečnostní filtry, které blokují obvyklé spouštěče (event handery jako onclick/onload a href atributy).
 
 Využití nápovědy: Prozkoumal jsem nápovědu labu, abych našel alternativní HTML tag nebo atribut, který filtry přehlížejí a neblokují.
 
